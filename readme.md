@@ -26,4 +26,4 @@ nnoremap <leader>tt :set completefunc=tailwind#complete<cr>
 autocmd CompleteDone * pclose
 ```
 
-[preview](https://raw.githubusercontent.com/mrdotb/i/master/demo-vim-tailwindcss.gif)
+![preview](https://raw.githubusercontent.com/mrdotb/i/master/demo-vim-tailwindcss.gif)
