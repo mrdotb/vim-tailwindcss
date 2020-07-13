@@ -18,7 +18,7 @@ function! tailwind#complete(findstart, base)
     return s:classes
   else
     let res = []
-    let regex = '^' . substitute(a:base, "[-:]", ".", "g")
+    let regex = '^' . a:base
     for s in s:classes
       if s["word"] =~ regex
         call add(res, s)

@@ -70,7 +70,7 @@ defmodule F do
 
   def main do
     input = get_tailwind()
-    class_regex = ~r/(\.\w[\w\-\\\:]*) \{(.*?)\}/s
+    class_regex = ~r/(\.[\w\-][\w\-\\\:]*) \{(.*?)\}/s
 
     output = File.open!(@output_file, [:raw, :write])
 
