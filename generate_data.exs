@@ -2,7 +2,7 @@
 
 defmodule F do
   @output_file "autoload/tailwind/data.vim"
-  @url 'https://unpkg.com/tailwindcss@1.4.6/dist/tailwind.css'
+  @url 'https://unpkg.com/tailwindcss@2.0.1/dist/tailwind.css'
 
   def clean_class(class) do
     class
